@@ -530,6 +530,8 @@
 .list_items ul{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .list_items ul li{
     padding: 10px;
@@ -537,4 +539,26 @@
 .list_items ul li a{
     color: #fff;
     text-decoration: none;
+}
+.list_items_next ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.list_items_next ul li{
+    margin-left: 50px;
+}
+.list_items_next ul li a{
+    text-decoration: none;
+    color: #ddd;
+    font-weight: 400;
+}
+.footer_content .footer_cr{
+    color: #ddd;
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
