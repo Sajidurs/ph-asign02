@@ -73,7 +73,6 @@
 /* Banner Section CSS */
 .banner_section_wrapper {
     background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-    ;
 }
 
 .banner_content {
@@ -113,10 +112,22 @@
     text-transform: lowercase;
     list-style: none;
 }
-.banner_content .banner_left ul{
+
+.banner_content .banner_left ul {
     margin-bottom: 30px;
 }
+
 .banner_content .banner_left .btn1 {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    background-color: #FF42A5;
+    border-radius: 48px;
+    margin-right: 10px;
+    border: none;
+}
+
+.btn1 {
     display: inline-flex;
     padding: 21px 40px;
     align-items: flex-start;
@@ -146,6 +157,286 @@
     line-height: normal;
     text-transform: uppercase;
 }
-.banner_content .banner_right img{
+
+.banner_content .banner_right img {
     margin-left: 300px;
+}
+
+/* Under Banner CSS */
+.under_banner_wrapper {
+    margin-top: 100px;
+}
+
+.under_banner_content {
+    width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.ud_right h2 {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #F948B2;
+    text-align: right;
+}
+
+.ud_right p {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.ud_right button {
+    margin-left: 260px;
+}
+
+.ud_right button a {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.ud_right h5 {
+    text-align: right;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    margin-top: 20px;
+}
+
+.ud_right h4 {
+    text-align: right;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* Online Gamming Section CSS */
+.online_game_wrapper {
+    margin: 100px 100px;
+}
+
+.online_game_content {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.online_game_content h2 {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.online_game_content p {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.online_game_content h2 span {
+    color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    ;
+}
+
+
+.image_item_wrapper {
+    display: flex;
+}
+
+.image_item_wrapper p {
+    padding-bottom: 40px !important;
+}
+
+.game_item {
+    margin-top: 50px;
+}
+
+.image_item_wrapper .game_item img {
+    max-width: 400px !important;
+    padding: 10px;
+}
+
+.online_game_content h2 span {
+    color: #8758F1;
+}
+
+.image_item_wrapper .game_item .img01 {
+    margin-top: 31px;
+}
+
+.image_item_wrapper .game_item p {
+    text-align: start;
+    padding: 10px;
+}
+
+/* Play Section CSS */
+.play_section_wrapper {
+    background-color: #fff;
+}
+
+.play_content {
+    width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.play_content .play_left h3 {
+    font-family: Work Sans;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play_content .play_left h3 span {
+    color: #F948B2;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+}
+
+.play_content .play_left h3 {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+}
+
+.play_content .play_left p {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.play_content .play_right img{
+    margin-left: 290px;
+}
+
+.play_content{
+    position: relative;
+}
+.girl_image{
+    position: absolute;
+}
+.play_content .girl_image img {
+    margin-left: 465px;
+    margin-top: 420px;
+}
+
+.careers_section_wrapper{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    margin-top: 150px;
+}
+.careers_content{
+    width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.careers_left h3{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+margin-top: 60px;
+line-height: 60px;
+}
+.careers_left p{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.careers_left button{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border: none;
+border-radius: 48px;
+background: #FFF;
+margin-top: 20px;
+}
+.careers_left button a{
+    text-decoration: none;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.two_section_list{
+    display: flex;
+    justify-content: safe;
+}
+.two_section_list .list_one{
+    margin-right: 100px;
+}
+.two_section_list .list_one li{
+    color: #FFF;
+font-family: Work Sans;
+list-style: none;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px;
+}
+.two_section_list .list_two li{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px;
+list-style: none;
+}
+.carrers_right img{
+    max-width: 700px;
 }
