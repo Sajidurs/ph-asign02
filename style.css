@@ -14,7 +14,7 @@
 }
 
 .header_content {
-    width: 1350px;
+    width: 1150px;
     margin: 0 auto;
 }
 
@@ -26,7 +26,7 @@
 
 .logo {
     display: flex;
-    margin-right: 600px;
+    margin-right: 300px;
 }
 
 .logo h2 {
@@ -45,7 +45,22 @@
     color: #ff42a5;
     line-height: normal;
 }
-
+.follow_us{
+    display: flex;
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+    padding: 10px;
+}
+.header_icon{
+    margin-left: 20px;
+    display: flex;
+}
+.two_icon01 i{
+    color: red;
+}
+.header_icon i{
+    padding: 4px;
+}
 .menu_items {
     margin-right: 60px;
 }
@@ -76,7 +91,7 @@
 }
 
 .banner_content {
-    width: 1350px;
+    width: 1150px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -159,7 +174,7 @@
 }
 
 .banner_content .banner_right img {
-    margin-left: 300px;
+    margin-left: 100px;
 }
 
 /* Under Banner CSS */
@@ -168,7 +183,7 @@
 }
 
 .under_banner_content {
-    width: 1350px;
+    width: 1150px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -196,7 +211,7 @@
 }
 
 .ud_right button {
-    margin-left: 260px;
+    margin-left: 60px;
 }
 
 .ud_right button a {
@@ -239,7 +254,7 @@
 }
 
 .online_game_content {
-    width: 1350px;
+    width: 1150px;
     margin: 0 auto;
 }
 
@@ -284,7 +299,7 @@
 }
 
 .image_item_wrapper .game_item img {
-    max-width: 400px !important;
+    max-width: 300px !important;
     padding: 10px;
 }
 
@@ -307,7 +322,7 @@
 }
 
 .play_content {
-    width: 1350px;
+    width: 1150px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -316,7 +331,7 @@
 .play_content .play_left h3 {
     font-family: Work Sans;
     text-align: center;
-    font-size: 48px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 60px;
@@ -353,7 +368,7 @@
 }
 
 .play_content .play_right img {
-    margin-left: 290px;
+    margin-left: 90px;
 }
 
 .play_content {
@@ -365,8 +380,8 @@
 }
 
 .play_content .girl_image img {
-    margin-left: 465px;
-    margin-top: 420px;
+    margin-left: 275px;
+    margin-top: 450px;
 }
 
 .careers_section_wrapper {
@@ -477,9 +492,11 @@
     margin-right: 40px;
     margin-top: 100px;
 }
-.the_first_section .it_items img{
+
+.the_first_section .it_items img {
     padding: 5px;
 }
+
 .the_first_section .it_items h3 {
     margin-top: 20px;
     font-size: 17px;
@@ -490,7 +507,7 @@
 .the_second_section {
     display: flex;
     margin-left: 100px;
-    
+
 }
 
 .the_second_section .it_items {
@@ -503,7 +520,8 @@
     margin-right: 40px;
     margin-top: 30px;
 }
-.the_second_section .it_items img{
+
+.the_second_section .it_items img {
     padding: 5px;
 }
 
@@ -513,54 +531,69 @@
 }
 
 /* Footer CSS */
-.footer_wrapper{
+.footer_wrapper {
     background-color: #0B0223;
 }
-.footer_content{
+
+.footer_content {
     width: 1350px;
     padding-top: 100px;
     padding-bottom: 100px;
     text-align: center;
     margin: 0 auto;
 }
-.logo_text h1{
+
+.logo_text{
+    display: flex;
+    justify-content: center;
+}
+
+.logo_text h1 {
     color: #fff;
 }
-.logo_text span{
-    color: #FF42A5 ;
+
+.logo_text span {
+    color: #FF42A5;
 }
-.list_items ul{
+
+.list_items ul {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.list_items ul li{
+
+.list_items ul li {
     padding: 10px;
 }
-.list_items ul li a{
+
+.list_items ul li a {
     color: #fff;
     text-decoration: none;
 }
-.list_items_next ul{
+
+.list_items_next ul {
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
 }
-.list_items_next ul li{
+
+.list_items_next ul li {
     margin-left: 50px;
 }
-.list_items_next ul li a{
+
+.list_items_next ul li a {
     text-decoration: none;
     color: #ddd;
     font-weight: 400;
 }
-.footer_content .footer_cr{
+
+.footer_content .footer_cr {
     color: #ddd;
-text-align: center;
-font-family: Work Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
