@@ -131,6 +131,10 @@ background: rgba(11, 2, 35, 0.10);
 .banner_content .banner_left ul {
     margin-bottom: 30px;
 }
+.banner_content .banner_left ul li i{
+    margin-right: 10px;
+    padding: 5px;
+}
 
 .banner_content .banner_left .btn1 {
     display: inline-flex;
@@ -491,6 +495,11 @@ background: rgba(11, 2, 35, 0.10);
     padding: 5px 10px 5px 10px;
     margin-right: 40px;
     margin-top: 100px;
+    transition: 0.3s;
+}
+.the_first_section .it_items:hover{
+    border: 1px solid red;
+    cursor: pointer;
 }
 
 .the_first_section .it_items img {
@@ -519,6 +528,10 @@ background: rgba(11, 2, 35, 0.10);
     padding: 5px 10px 5px 10px;
     margin-right: 40px;
     margin-top: 30px;
+}
+.the_second_section .it_items:hover{
+    border: 1px solid red;
+    cursor: pointer;
 }
 
 .the_second_section .it_items img {
@@ -565,11 +578,14 @@ background: rgba(11, 2, 35, 0.10);
 
 .list_items ul li {
     padding: 10px;
+    list-style: none;
 }
 
 .list_items ul li a {
     color: #fff;
     text-decoration: none;
+    margin-left: 36px;
+    font-size: 20px;
 }
 
 .list_items_next ul {
@@ -579,13 +595,23 @@ background: rgba(11, 2, 35, 0.10);
 }
 
 .list_items_next ul li {
-    margin-left: 50px;
+    list-style: none;
 }
 
 .list_items_next ul li a {
     text-decoration: none;
     color: #ddd;
+    margin-left: 20px;
     font-weight: 400;
+}
+
+.footer_icons i{
+    font-size: 40px;
+    color: #fff;
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
 }
 
 .footer_content .footer_cr {
